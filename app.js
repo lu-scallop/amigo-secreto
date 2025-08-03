@@ -26,6 +26,20 @@ function atualizarListaDeAmigos(amigos)
     }
 }
 
+function sortearAmigo()
+{
+    if (amigos.length > 0) {
+
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length) +1;
+        
+        let nomeSorteado = amigos[indiceAleatorio - 1];
+
+        let exibeNome = document.getElementById("resultado");
+
+        exibeNome.innerHTML = `<li>${nomeSorteado}</li>`
+    }
+}
+
 
 
 
