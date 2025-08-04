@@ -5,7 +5,9 @@ function adicionarAmigo() {
     let campoTexto = document.getElementById("amigo");
 
     if (campoTexto.value == "") {
-        alert("Por favor, insira um nome");
+        alert("Por favor, insira um nome válido!");
+    } else if (amigos.includes(campoTexto.value)) {
+        alert("Esse nome já foi adicionado na lista!");
     } else {
         amigos.push(campoTexto.value);
     }
@@ -36,8 +38,15 @@ function sortearAmigo()
 
         let exibeNome = document.getElementById("resultado");
 
-        exibeNome.innerHTML = `<li>${nomeSorteado}</li>`
+        limpaLista();
+
+        exibeNome.innerHTML = `<li>O amigo secreto sorteado é: ${nomeSorteado}</li>`
     }
+}
+
+function limpaLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
 }
 
 
