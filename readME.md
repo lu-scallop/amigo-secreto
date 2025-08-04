@@ -25,6 +25,10 @@ Amigo secreto é um jogo em que o usuário adiciona nomes em uma lista e sorteia
 
 Verifique o projeto [aqui](https://lu-scallop.github.io/amigo-secreto/)
 
+# Sobre o projeto
+
+Esse projeto faz parte do Programa ONE (Oracle Next Education) em parceria com a Alura.
+
 
 
 
