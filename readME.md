@@ -5,5 +5,5 @@
 ![Badges](https://img.shields.io/badge/CSS-blue)
 ![Badges](https://img.shields.io/badge/Javascript-yellow)
 
-Um projeto desafio em que desenvolvi a lógica em javascript para o funcionamento do site.
+Amigo secreto é um jogo em que o usuário adiciona nomes em uma lista e sorteia um nome aleatoriamente.
 
