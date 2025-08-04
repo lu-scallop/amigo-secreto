@@ -23,7 +23,7 @@ Amigo secreto é um jogo em que o usuário adiciona nomes em uma lista e sorteia
 
 # Experimente
 
-Verifique o projeto aqui
+Verifique o projeto [aqui](https://lu-scallop.github.io/amigo-secreto/)
 
 
 
