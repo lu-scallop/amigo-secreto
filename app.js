@@ -30,7 +30,7 @@ function atualizarListaDeAmigos(amigos)
 
 function sortearAmigo()
 {
-    if (amigos.length > 0) {
+    if (amigos.length > 1) {
 
         let indiceAleatorio = Math.floor(Math.random() * amigos.length) +1;
         
@@ -41,6 +41,8 @@ function sortearAmigo()
         limpaLista();
 
         exibeNome.innerHTML = `<li>O amigo secreto sorteado é: ${nomeSorteado}</li>`
+    } else {
+        alert("Adicione pelo menos dois nomes na lista!")
     }
 }
 
